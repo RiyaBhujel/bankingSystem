@@ -29,4 +29,10 @@ public class Account extends Customer {
     public void withdraw(int amount) {
         balance -= amount;
     }
+
+    public void giveToken(String token){
+        System.out.println("your token is "+ token);
+    }
+
+    giveToken();
 }
